@@ -35,6 +35,7 @@
     color: #2b312b;
     font-size: 25px;
     height: 25px;
+    margin-top: 20px !important;
     }
 .post-more {
     float: right;
@@ -47,7 +48,13 @@
 }
 .post-desc{
     height: 100px;
-    margin-bottom: 0 !important;
+    margin-bottom: 10px !important;
+    line-height: 1.8rem;
+    height: 5.4em;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    /* padding: 10px 10px 10px 0px; */ 
 }
 
 body {
@@ -124,4 +131,22 @@ label
 .text-center
 {
     color: #000;
+}
+.trash
+{
+    margin-top: 10px;
+}
+.anc
+{
+    color: #000;
+}
+.modal-button
+{
+    border-radius: 0px;
+    padding: 5px 60px;
+    margin-top: 10px;
+}
+.modal-body
+{
+    padding: 30px 20px;
 }
