@@ -138,6 +138,11 @@ label
 }
 .anc
 {
+    cursor: pointer;
+    color: #000;
+}
+.anc :hover
+{
     color: #000;
 }
 .modal-button

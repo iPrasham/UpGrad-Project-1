@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
         <!-- Bootstrap CSS CDN -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
@@ -23,10 +24,10 @@
                         <p class="middleText">Explore. Imagine. Create</p>    
                     </div>
                     <div class="p-2 bd-highlight">
-                        <button class="headerButton" data-toggle="modal" data-target="#signInModal">Sign In</button>
+                        <button class="headerButton" onclick="clear_signInModal()" data-toggle="modal" data-target="#signInModal">Sign In</button>
                     </div>
                     <div class="p-2 bd-highlight">
-                        <button class="headerButton" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
+                        <button class="headerButton" onclick="clear_signUpModal()" data-toggle="modal" data-target="#signUpModal">Sign Up</button>
                     </div>
                 </div>
     
@@ -124,7 +125,8 @@
 
     </div>
 
-    <div class="blogContent container">
+    <div class="container">
+    <div class="blogContent">
         <div id="blogTitle" class="blogTite">
         <h id="blogTitleNew">The legacy of Jimi Hendrix</h>
        </div>
@@ -132,6 +134,8 @@
        <div class="blogAuthor">
 
     <!-- Insert code for Edit/Save button and  -->
+    <button type="button" class="btn btn-primary pull-right" id="edit_button" onclick="edit()">Edit <i class="fa fa-edit"></i></button> 
+    <button type="button" class="btn btn-primary pull-right" id="save_button" onclick="save()">Save <i class="fa fa-save"></i></button> 
 
 
     <p>Jimi</p>
@@ -144,7 +148,15 @@
 </div>
 </div>
     <!-- Insert code for Like button, Comment button, Comment box here-->
-
+    <div>
+        <button type="button" class="btn btn-primary pull-left" id="like_button" onclick="like()"><i class="fa fa-thumbs-up"></i> Like</button>
+        <br><p class="like_text">Be the first one to like this!</p>
+    </div> 
+    <div>
+        <br><br><textarea id="comment_box" rows="4" cols="100" placeholder="Leave a comment..."></textarea>
+        <br><button type="button" class="btn btn-primary pull-left" id="comment_button" onclick="comment()">Comment</button>
+    </div>
+</div>
     <script src="..\js\post.js" defer></script>
     <script src="..\js\header.js"></script>      
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
@@ -156,3 +168,4 @@
    
     
 </body>
+</html>
