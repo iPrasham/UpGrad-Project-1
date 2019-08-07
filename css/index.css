@@ -12,11 +12,6 @@ body{
 
 /* Set a style for the rest of the elements besides the header elements on the index.html page */
                                  
-.middleText
-{
-    font-family: 'Marck Script', cursive;
-    font-size: 14px;
-}
 .contentButton  
 {
     background-color:#D1B641;
