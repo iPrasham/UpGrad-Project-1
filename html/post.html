@@ -150,16 +150,20 @@
     <!-- Insert code for Like button, Comment button, Comment box here-->
     <div>
         <button type="button" class="btn btn-primary pull-left" id="like_button" onclick="like()"><i class="fa fa-thumbs-up"></i> Like</button>
-        <br><p class="like_text">Be the first one to like this!</p>
+        <br><p class="like_text" id="like_text">Be the first one to like this!</p>
     </div> 
     <div>
         <br><br><textarea id="comment_box" rows="4" cols="100" placeholder="Leave a comment..."></textarea>
         <br><button type="button" class="btn btn-primary pull-left" id="comment_button" onclick="comment()">Comment</button>
+        <br><br><br><p id="all_comments_text"><b>All Comments</b></p>
+        <div id="all_comment_box">
+
+        </div>
     </div>
 </div>
     <script src="..\js\post.js" defer></script>
     <script src="..\js\header.js"></script>      
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
             integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
