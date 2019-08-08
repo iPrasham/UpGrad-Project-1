@@ -19,3 +19,49 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     font-family: 'Marck Script', cursive;
     font-size: 14px;
 }
+.form-control
+{
+    border-radius: 0px !important;
+    background-color: #F1F1F1 !important;
+    border:none;
+}
+#signUpButton
+{
+    background-color: #5EB861 !important;
+}
+.modal-dialog 
+{
+    width:30% !important;
+    line-height: 150% !important;
+}
+.modal-content
+{
+    border-radius: 0px !important;
+    border: none !important;
+}
+.modal-header
+{
+    border-bottom:1.5px solid gray;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.close
+{
+    font-size: 38px;
+}
+label
+{
+    font-family: Bahnschrift Condensed !important;
+}
+h4
+{
+    font-family: Bahnschrift Condensed !important;
+}
+.signUpLink
+{
+    color : rgb(61,61,219) !important;
+}
+button
+{
+
+}

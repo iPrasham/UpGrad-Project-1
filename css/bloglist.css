@@ -71,7 +71,7 @@ body {
     width: 100%;
 
 }
-.middleText
+/* .middleText
 {
     font-family: 'Marck Script', cursive;
     font-size: 14px;
@@ -114,11 +114,6 @@ body {
 {
     font-size: 38px;
 }
-label
-{
-    font-family: Segoe UI;
-    color: #000;
-}
 .modal-title
 {
     font-family: Segoe UI;
@@ -127,6 +122,11 @@ label
 .signUpLink
 {
     color : rgb(61,61,219) !important;
+} */
+label
+{
+    font-family: Segoe UI;
+    color: #000;
 }
 .text-center
 {

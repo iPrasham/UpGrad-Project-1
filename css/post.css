@@ -22,7 +22,7 @@
 }
 
 /* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
-.middleText
+/* .middleText
 {
     font-family: 'Marck Script', cursive;
     font-size: 14px;
@@ -78,7 +78,7 @@ label
 .signUpLink
 {
     color : rgb(61,61,219) !important;
-}
+} */
 #edit_button
 {
     border: none;
@@ -87,7 +87,7 @@ label
     font-family: Helvetica, sans-serif;
     font-size: 13px;
     padding: 6px 21px;
-    box-shadow: 0px 2px 5px rgb(238, 82, 108);
+    box-shadow: 0px 2px 5px #d48383;
 }
 #save_button
 {
@@ -97,7 +97,7 @@ label
     font-family: Helvetica, sans-serif;
     font-size: 13px;
     padding: 6px 21px;
-    box-shadow: 0px 2px 5px rgb(238, 82, 108);
+    box-shadow: 0px 2px 5px #d48383;
     display: none;
 }
 #like_button
@@ -109,7 +109,7 @@ label
     font-family: Helvetica, sans-serif;
     font-size: 13px;
     padding: 6px 28px;
-    box-shadow: 0px 2px 5px rgb(238, 82, 108);
+    box-shadow: 0px 2px 5px #d48383;
 }
 #comment_button
 {
@@ -120,7 +120,7 @@ label
     font-family: Helvetica, sans-serif;
     font-size: 13px;
     padding: 6px 28px;
-    box-shadow: 0px 2px 5px rgb(238, 82, 108);
+    box-shadow: 0px 2px 5px #d48383;
     margin-top: 10px;
 }
 .like_text
@@ -141,7 +141,7 @@ label
 #all_comments_text
 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: 14px;
 }
 #all_comment_box
 {
@@ -160,4 +160,6 @@ label
     border-radius: 0%;
     margin: 10px;
     padding: 13px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
 }

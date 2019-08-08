@@ -2,11 +2,17 @@ function edit()
 {
     document.getElementById("edit_button").style.display = "none";
     document.getElementById("save_button").style.display = "block";
+    document.getElementById("blogBody").contentEditable = "true";
+    document.getElementById("span_title").contentEditable = "true";
+    document.getElementById("blogBody").style.border = "1px solid #f3bcbc";
+    document.getElementById("span_title").style.border = "1.5px solid #f3bcbc";
 }
 function save()
 {
     document.getElementById("save_button").style.display = "none";
     document.getElementById("edit_button").style.display = "block";
+    document.getElementById("blogBody").style.border = "none";
+    document.getElementById("span_title").style.border = "none";
 }
 var count = 1;
 function like()
