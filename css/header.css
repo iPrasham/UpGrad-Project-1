@@ -61,7 +61,11 @@ h4
 {
     color : rgb(61,61,219) !important;
 }
-button
+::placeholder
 {
-
+    font-family: Bahnschrift Condensed !important;
+}
+:placeholder-shown
+{
+    font-family: Bahnschrift Condensed !important;
 }

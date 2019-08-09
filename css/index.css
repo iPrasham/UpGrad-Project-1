@@ -66,3 +66,22 @@ h5
 {
     margin-top: 100px;
 }
+/* .postButtons
+{
+    margin-top: 10%;
+}
+@media (max-width: 991.8px) 
+{  
+    .postButtons
+    {
+        margin-top: 70%;
+    }
+} */
+::placeholder
+{
+    font-family: Bahnschrift Condensed !important;
+}
+:placeholder-shown
+{
+    font-family: Bahnschrift Condensed !important;
+}

@@ -163,3 +163,14 @@ label
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
 }
+@media (max-width: 1123px) 
+{  
+    #comment_box
+    {
+        width: 62%;
+    }
+}
+.post
+{
+    color: black;
+}

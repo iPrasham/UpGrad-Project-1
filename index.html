@@ -9,12 +9,17 @@
     <!-- Place all CSS for header in this file -->
     <link href='css\header.css' rel='stylesheet' type='text/css'>
 
+    <!-- Place all CSS for header in this file -->
+    <link href='css\bootstrap.min.css' rel='stylesheet' type='text/css'>
+
     <!-- Place all CSS for the rest of the elements in this file -->
     <link href='css\index.css' rel='stylesheet' type='text/css'>
 
 	<!-- Place all CSS for fonts in this file -->
     <link href='css\font.css' rel='stylesheet' type='text/css'>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js\jquery-3.4.1.min.js"></script>
 </head>
 <body>
     <div id="main-container-div">
@@ -80,7 +85,7 @@
                                 </div>
                             </div>
                         <!-- <div class="col-lg-12 form-group"> -->
-                                <input type="submit" class="btn btn-success form-control" id="signUpButton" value="Sign In">
+                                <input type="submit" class="btn btn-success form-control" onclick="dismiss_signIn_modal" id="signUpButton" value="Sign In">
                                 <br><br>
                                 <p class="text-center">Not a member? <a class="signUpLink" href="#" data-dismiss="modal" data-toggle="modal" data-target="#signUpModal">Sign Up</a></p>
                         <!-- </div> -->
@@ -136,7 +141,7 @@
                             </div>
                         </div>
                         <!-- <div class="col-lg-12 form-group"> -->
-                                <input type="submit" class="btn btn-success form-control" id="signUpButton" value="Sign Up">
+                                <input type="submit" class="btn btn-success form-control" onclick="dismiss_signUp_modal()" id="signUpButton" value="Sign Up">
                         <!-- </div> -->
                     </form>
                     </div>
@@ -178,7 +183,7 @@
                                 </div>
                             </div>
                         <!-- <div class="col-lg-12 form-group"> -->
-                                <input type="submit" class="btn btn-success form-control" id="signUpButton" value="Save">
+                                <input type="submit" class="btn btn-success form-control" onclick="dismiss_createPost_modal()" id="signUpButton" value="Publish">
                         <!-- </div> -->
                     </form>
                     </div>
@@ -197,6 +202,9 @@
 	<script src="js\header.js"></script>
 	<!-- Place all Javascript for rest of the elements in this file -->
     <script src="js\index.js"></script>
+    <script src="js\jquery-3.3.1.slim.min.js"></script>
+    <script src="js\popper.min.js"></script>
+    <script src="js\bootstrap.min.js"></script>
     <!-- Bootstap JS CDN -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
